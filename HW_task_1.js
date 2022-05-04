@@ -81,7 +81,7 @@ const users = [
     },
 ];
 
-function userSampel(element)
+function userSampel()
     {
     const result1 = users.filter(user => user.registrationDate == '09.10.2021');
     const result2 = users.filter(user => user.registrationDate == '10.10.2021');
