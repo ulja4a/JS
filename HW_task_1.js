@@ -83,9 +83,10 @@ const users = [
 
 function userSampel()
     {
-    const result1 = users.filter(user => user.registrationDate == '09.10.2021');
-    const result2 = users.filter(user => user.registrationDate == '10.10.2021');
-console.log(result1 , result2);
+    const result1 = users.filter(user => user.registrationDate == '09.10.2021' || user.registrationDate == '10.10.2021');
+  //  const result2 = users.filter(user => user.registrationDate == '10.10.2021');
+//console.log(result1 , result2);
+console.log(result1)
     }
 userSampel(users)
 
